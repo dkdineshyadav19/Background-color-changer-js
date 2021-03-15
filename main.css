@@ -1,0 +1,33 @@
+*{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 90vh;
+}
+
+nav{
+    background-color:white;
+    height: 10vh;
+}
+nav h3{
+    float: left;
+    color:lightseagreen;
+}
+nav a{
+    float: right;
+    text-decoration: none;
+    color: green;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    border: 2px grey solid;
+}
